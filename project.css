@@ -1,0 +1,87 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: white;
+    color: #333;
+}
+
+/* Navbar */
+nav {
+    background-color: turquoise;
+    padding: 15px;
+    text-align: center;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+}
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+nav ul li a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    transition: color 0.3s ease;
+}
+nav ul li a:hover {
+    color: #005f5f;
+}
+
+/* Sections */
+section {
+    padding: 60px 10%;
+    text-align: center;
+    background: linear-gradient(to right, #e0f7f7, #ffffff);
+    border-radius: 10px;
+    margin: 20px auto;
+    max-width: 1200px;
+    box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.1);
+}
+
+/* Projects Page */
+#projects {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+    padding: 50px;
+    background: #e0f7f7;
+}
+.project {
+    background: white;
+    padding: 20px;
+    width: 300px;
+    border-radius: 12px;
+    box-shadow: 2px 4px 12px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    text-align: center;
+}
+.project:hover {
+    transform: translateY(-5px);
+    box-shadow: 4px 8px 20px rgba(0, 0, 0, 0.2);
+}
+.project-img {
+    width: 60%;
+    border-radius: 10px;
+    height: 80px;
+    object-fit: cover;
+    margin-bottom: 10px;
+}
+
+/* Footer */
+footer {
+    background-color: turquoise;
+    color: white;
+    text-align: center;
+    padding: 15px;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+    box-shadow: 0px -4px 10px rgba(0, 0, 0, 0.1);
+}
